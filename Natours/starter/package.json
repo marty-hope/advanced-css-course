@@ -4,11 +4,11 @@
   "description": "Sample App for Udemy course for Advanced CSS training",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "sass sass/main.scss css/style.css -w"
   },
   "author": "Marty Hope",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "sass": "^1.43.4"
   }
 }
